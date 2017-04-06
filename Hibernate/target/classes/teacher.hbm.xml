@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+<class name="Teacher" table="vi">
+ 
+<composite-id>
+<key-property name="name" column="name"  />
+<key-property name="subject" column="subject" length="10" />
+</composite-id>
+ 
+</class>
+</hibernate-mapping> 	
